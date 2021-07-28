@@ -24,4 +24,60 @@ body {
     line-height: 1.5rem;
     overflow-x: hidden;
     background-color: var(--light-grayish-blue);
+    padding: 5rem 2rem;
+}
+
+/************************ GENERAL LAYOUT *************************/
+
+.content{
+    display: grid;
+    grid-template-columns: minmax(10rem, 32.5rem);
+    grid-template-rows: repeat(5, auto);
+    gap: 2rem;
+}
+
+.content > section{
+    padding: 2rem;
+    border-radius: 5px;
+    box-shadow: 0 0 1.5rem rgba(0, 0, 0, 0.3) ;
+}
+
+/************************ SECTION VIOLET *************************/
+
+.purple{
+    position: relative;
+    background-color: var(--violet);
+    z-index: 1;
+}
+
+.purple::before{
+    content: url(images/bg-pattern-quotation.svg);
+    position: absolute;
+    top: 0;
+    left: 15rem;
+    z-index: -1;
+    
+}
+
+/************************ SECTION GRAYISH-BLUE *************************/
+
+.grayish-blue{
+    background-color: var(--grayish-blue);
+}
+
+/************************ SECTION WHITE-SHORT *************************/
+
+.white-short{
+    background-color: var(--white);
+}
+
+/************************ SECTION BLUE-DARK *************************/
+
+.blue-dark{
+    background-color: var(--blue-dark);
+}
+
+/************************ SECTION WHITE-LONG *************************/
+.white-long{
+    background-color: var(--white);
 }
