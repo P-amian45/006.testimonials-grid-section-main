@@ -55,7 +55,19 @@ body {
 .profil__picture{
     border-radius: 50%;
     width: 3rem;
-    margin-right: 2rem;
+    margin-right: 1rem;
+}
+
+.profil__name{
+    color: var(--light-gray);
+    font-size: 1.1rem;
+}
+
+.profil__status{
+    color: var(--light-gray);
+    opacity: 50%;
+    font-size: .8rem;
+    margin-top: -.2rem;
 }
 /************************ SECTION VIOLET *************************/
 
