@@ -37,11 +37,26 @@ body {
 }
 
 .content > section{
-    padding: 2rem;
+    padding: 3rem;
     border-radius: 5px;
     box-shadow: 0 0 1.5rem rgba(0, 0, 0, 0.3) ;
 }
 
+.profil{
+    display: flex;
+    align-items: center;
+}
+
+.profil__details{
+    display: flex;
+    flex-direction: column;
+}
+
+.profil__picture{
+    border-radius: 50%;
+    width: 3rem;
+    margin-right: 2rem;
+}
 /************************ SECTION VIOLET *************************/
 
 .purple{
