@@ -117,7 +117,18 @@ body {
     top: 0;
     left: 12rem;
     z-index: -1;
-    
+}
+
+@media screen and (min-width: 300px) {
+    .purple::before{
+        left: 15rem;
+    }
+}
+
+@media screen and (min-width: 340px) {
+    .purple::before{
+        left: 18rem;
+    }
 }
 
 /************************ SECTION GRAYISH-BLUE *************************/
