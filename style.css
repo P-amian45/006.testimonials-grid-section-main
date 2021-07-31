@@ -27,6 +27,12 @@ body {
     padding: 5rem 2rem;
 }
 
+@media screen and (min-width: 375px){
+    body {
+        padding: 5rem;
+    }
+}
+
 /************************ GENERAL LAYOUT *************************/
 
 .content{
@@ -36,10 +42,22 @@ body {
     gap: 2rem;
 }
 
+
+
 .content > section{
     padding: 2rem;
     border-radius: 5px;
     box-shadow: 0 0 1.5rem rgba(0, 0, 0, 0.3) ;
+}
+
+@media screen and (min-width: 375px) {
+    .content{
+        grid-template-columns: minmax(10rem, 30rem); 
+    }
+
+    .content > section{
+        padding: 3rem;
+    } 
 }
 
 .profil{
@@ -127,9 +145,10 @@ body {
 
 @media screen and (min-width: 340px) {
     .purple::before{
-        left: 18rem;
+        left: 15rem;
     }
 }
+
 
 /************************ SECTION GRAYISH-BLUE *************************/
 
