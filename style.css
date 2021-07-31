@@ -48,8 +48,6 @@ body {
     gap: 2rem;
 }
 
-
-
 .content > section{
     padding: 2rem;
     border-radius: 5px;
@@ -143,6 +141,12 @@ body {
     z-index: -1;
 }
 
+@media screen and (min-width: 1024px) {
+    .purple{
+        grid-area: 1/1/2/3;
+    }
+}
+
 /************************ SECTION GRAYISH-BLUE *************************/
 
 .grayish-blue{
@@ -161,7 +165,31 @@ body {
     background-color: var(--blue-dark);
 }
 
+@media screen and (min-width: 1024px) {
+    .blue-dark{
+        grid-area: 2/2/3/4;
+    }
+}
+
 /************************ SECTION WHITE-LONG *************************/
 .white-long{
     background-color: var(--white);
 }
+
+@media screen and (min-width: 1024px) {
+    .white-long{
+        grid-area: 1/4/span 2/5;
+    }
+}
+
+
+
+/*
+
+@media screen and (min-width: 1024px) {
+    .content{
+        grid-template-columns: repeat(4, auto);
+        grid-template-rows: repeat(2, auto);
+    }
+}
+*/
