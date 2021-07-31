@@ -79,9 +79,10 @@ body {
 }
 
 .comment{
-    font-size: 1.02rem;
+    font-size: 1.1rem;
     color: var(--light-gray);
     opacity: 70%;
+    width: 95%;
 }
 /************************ SECTION VIOLET *************************/
 
