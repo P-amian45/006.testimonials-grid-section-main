@@ -66,6 +66,8 @@ body {
 
 @media screen and (min-width: 1024px) {
     .content{
+        grid-template-columns: repeat(4, 25rem);
+        grid-template-rows: repeat(2, auto);
         width: 120rem;
         margin: 5rem auto;
     }
@@ -146,6 +148,12 @@ body {
     top: 0;
     right: 2rem;
     z-index: -1;
+}
+
+@media screen and (min-width: 1024px) {
+    .purple::before{
+        right: 7rem;
+    }
 }
 
 @media screen and (min-width: 1024px) {
