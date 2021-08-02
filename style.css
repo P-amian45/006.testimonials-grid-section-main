@@ -39,6 +39,18 @@ body {
     }
 }
 
+@media screen and (min-width: 1024px) {
+    body{
+        padding-left: 10rem;
+    }
+}
+
+@media screen and (min-width: 1440px) {
+    body{
+        padding-left: 18rem;
+    }
+}
+
 /************************ GENERAL LAYOUT *************************/
 
 .content{
