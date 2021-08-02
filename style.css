@@ -219,4 +219,9 @@ body {
         grid-template-rows: repeat(2, auto);
     }
 }
+
+
+I still don't know why it works without this part of code
+
+
 */
