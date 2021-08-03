@@ -82,7 +82,7 @@ body {
         grid-template-rows: repeat(2, auto);
         width: 120rem;
         margin: 5rem auto;
-    }
+    }    
 }
 
 .profil{
@@ -146,7 +146,7 @@ body {
 @media screen and (min-width: 1024px) {
     .comment{
         width: 100%;
-        font-size: 1.3rem;
+        font-size: 1.27rem;
         line-height: 1.5;
     }
 }
