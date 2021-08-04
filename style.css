@@ -9,6 +9,7 @@
     
     --light-gray: hsl(0, 0%, 81%);
     --light-grayish-blue: hsl(210, 46%, 95%);
+    --light-grayish-blue-o: hsla(210, 46%, 95%, 0.308);
 }
 
 /***** END OF COLOR VARIABLE****/
@@ -99,6 +100,16 @@ body {
     border-radius: 50%;
     width: 3rem;
     margin-right: 1rem;
+}
+
+.purple-border{
+    border: .2rem solid var(--violet);
+    background-clip: padding-box;
+}
+
+.gray-border{
+    border: .2rem solid var(--light-grayish-blue-o);
+    background-clip: padding-box;
 }
 
 .profil__name{
